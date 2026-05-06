@@ -7,6 +7,8 @@ import gspread
 from google.oauth2.service_account import Credentials
 
 st.title("二次関数：グラフ4択問題")
+st.write("Secrets keys:", list(st.secrets.keys()))
+
 
 # --- セッション状態の初期化 ---
 if "prev_a" not in st.session_state:
